@@ -1,0 +1,747 @@
+1 
+ 
+ 
+ 
+Powai Vihar Complex Powai, Mumbai -400076 
+ 
+ 
+Project on: 
+“Garbage Management System” 
+Submitted to 
+University of Mumbai 
+In partial fulfillment of requirement for the award of degree 
+Of 
+Bachelor of Information Technology (BSC IT) 
+Submitted by 
+YADAV RAMESH RAJENDRA BAHADUR 
+Roll No. (41) 
+AND 
+SHUKLA PAWAN GYANENDRA PRASAD 
+Roll No. (31) 
+T.Y.I.T. (V SEM) 
+Academic Year: 2020 – 2021 
+ 
+Under the guidance of 
+Mr. Sandeep Vishwakarma 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Powai Vihar Complex,Powai, Mumbai -400076 
+ 
+ 
+ 
+DECLARATION 
+ 
+ 
+ 
+ 
+I, YADAV RAMESH RAJENDRA BAHADUR of CHANDRABHAN SHARMA 
+COLLEGE OF ARTS, SCIENCE & COMMERCE, T.Y.BSC IT, Sem – V (2020-2021), hereby 
+declare that I have completed the Project work titled “Garbage Management System” as part of 
+my academic fulfillment. The information contained in this Project work is true and original to the best 
+my knowledge and belief. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Place: Mumbai 
+Date: 
+Signature of the Student 
+3 
+ 
+ 
+ 
+ 
+Powai Vihar Complex,Powai, Mumbai -400076 
+ 
+ACKNOWLEDGEMENT 
+ 
+ 
+We had a great pleasure for representing this project report for ― “Garbage Management 
+System" and we grab this opportunity to convey our immense regards towards all the 
+distinguished people who have their valuable contribution in the hour of need. 
+We profoundly thank our principal "Mrs. Pratima Singh" for giving us support throughout the 
+course and made us capable of being worthy of recognition and extended query facility to us for 
+making and computing the project smoothly. 
+We would like to express our sincere thanks to Prof. Sandeep Vishwakarma (Head of IT 
+DEPARTMENT) for his constant encouragement, which made this project a success. 
+We are highly obliged to Prof. Arvind Singh and teaching staff member of the Information 
+Technology department, who spread efforts in making the project a successful one her guidance, 
+appropriate advice and encouragement and of course the inspiration without which the project 
+would be ineffective difficult task. 
+We sincerely thank you express my profound gratitude to our teachers for their timely and 
+prestigious guidance. 
+We also thank my family members for their continued support in completing this project work and 
+last but not the least; we wish to thank all my friends and well-wishers who are directly or  
+indirectly linked with the success of our project. 
+ 
+ 
+ 
+ 
+ 
+Signature of the Student 
+4 
+ 
+ 
+ 
+ 
+Powai Vihar Complex,Powai, Mumbai -400076 
+ 
+ 
+CERTIFICATE 
+This is to certify that YADAV RAMESH RAJENDRA BAHADUR student of 
+T.Y.BSC IT (2020- 2021) has prepared a project report on “Garbage Management 
+System” as a part of the academic fulfillment of T.Y.BSC IT degree under my guidance. 
+The information contained in this Project Work is true and original to the best our 
+knowledge and belief. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Project Guide 
+Coordinator 
+ 
+ 
+ 
+ 
+External Exam 
+ 
+ 
+Date: 
+College Seal 
+5 
+ 
+ABSTRACT 
+ 
+ 
+ 
+Smart cities integrate multiple mobile or web solutions to build a comfortable human habitation. 
+One of these solutions is to provide an environmentally friendly, efficient and effective garbage 
+management system. 
+ 
+The current garbage collection system includes buying and selling of garbage products or new 
+products like metals, papers, bio-waste, medical-waste, many thinks witch we can buy and sell 
+thourgh this app.   
+ 
+This project proposes a cost-effective mobile or web based system for the industry to utilize 
+available resources to efficiently manage the overwhelming amounts of garbage collected each day, 
+while also providing a better solution for the inconvenience of garbage disposal for the citizens. 
+ 
+Garbage Management System Project is done by a network of smart industry which integrates 
+cloud- based techniques to monitor and analyze data collected and recycle that waste in proper way 
+and under the guidelines of government.  
+ 
+An android or web app is developed for the workforce and the citizens, which primarily buy that 
+products or there personal and for public use. 
+ 
+Our Garbage Management System for Smart City app integrates the best techniques to check and 
+analyze data sell to provide the best and easy way for buying and selling them easily. 
+ 
+An android or web application is produced for the residents, which essentially gives ease to the 
+people for buying products like metals, papers, plastics, antiques for the home and bussiness. 
+6 
+ 
+ 
+INDEX 
+ 
+Sr. No. 
+Content 
+Page. No. 
+1. 
+INTROUCTION 
+1.1 Background 
+1.2 Objective 
+1.3 Purpose, Scope and Applicability 
+1.3.1 Purpose 
+1.3.2 Scope 
+1.3.3 Applicability 
+1.4 Achievements 
+1.5 Organization Of Report 
+7 to 11 
+2. 
+SURVEY OF TECHNOLOGY 
+2.1 Survey Of technology 
+12 to 16 
+3. 
+REQUIREMENTS AND ANALYSIS 
+3.1 Problem Definition 
+3.2 Requirement Specification 
+3.3 Planning and Scheduling 
+3.3.1 Gant Chart 
+3.4 Software and Hardware Requirement 
+3.5 Preliminary Product Description 
+3.6 Conceptual Model 
+17 to 29 
+4. 
+SYSTEM DESIGN 
+4.1 Basic Module 
+4.2 Data Design 
+4.2.1 Schema Design 
+4.2.2 Data Integrity and Constraints 
+4.3 Procedural Design 
+4.3.1 Logic Diagram 
+4.3.2 Algorithms Design 
+4.4 User Interface Design 
+4.5 Security Issues 
+30 to 40 
+ 
+ 
+5. 
+IMPLEMTATION AND TETSING 
+5.1 Basic Module 
+5.2 Unit Testing 
+5.3 Test Cases 
+5.4 Codes 
+5.5 Test Cases 
+ 
+ 
+ 
+41 to 64 
+7 
+ 
+6. 
+RESULT AND DISCUSSION 
+6.1 Test Reports 
+6.2 Project Information 
+6.3 Documentation/outputs 
+ 
+65 to 79 
+7. 
+CONCLUSION AND FUTURE WORK 
+7.1 Conclusion 
+7.2 Future Work 
+7.3 References  
+ 
+80 to 83 
+ 
+ 
+8 
+ 
+CHAPTER 1 
+ 
+INTRODUCTION 
+ 
+ 
+ 
+To start with, we know that the “Smart City” topic is on-trend, so here I represent an app 
+regarding this topic. All Smart cities incorporate numerous portable or web answers to 
+manufacture an agreeable & comfortable human residence. 
+ 
+One of these arrangements is to give an ecologically provide accurate and updated Scrap 
+details, prices, and information to the community, along with connecting Buyers and Sellers 
+of local, national and Global markets.  
+ 
+This idea is perfect for saving time and changes the regular way buy and sell the products in 
+easy way this app provides a cost-effective way or web-based system for the government to 
+recycling of waste like plastics, papers and bio-waste. 
+ 
+Our Garbage Management System for Smart City app integrates the best techniques to 
+check and analyze data collected to provide the best and easy way of buying and selling of 
+products like plastic, paper, wood, antiques, etc. 
+9 
+ 
+1.1 Background 
+ 
+Garbage Waste Management is more than just putting waste to its proper place. Not only just waste 
+it is also usefull  for home appliances we can buy metals road for creating a new building and 
+saving lots of money. 
+ 
+There is so much data about waste management ‘hidden’ in industry because they don’t know how 
+use that waste again in other words we can say that they don’t know to do with reuse waste. 
+ 
+Collection of products and sell them through this app and the company thous who recycle that waste 
+and make them in reusable then can easily buy that product though this app. 
+ 
+Effective Garbage Management system  mission is to provide accurate and updated Scrap details, 
+prices, and    information to the community, along with connecting Buyers and Sellers of local, 
+national and Global markets. 
+Scrap recycling is a multi-billion dollar Industry, which depends on global supply and demand. 
+Providing information for international Buyers and Sellers facilitates the communication, and 
+creates new, more profitable business relationships for our members. 
+Our members provide business information, along with product listings, which are shared with 
+thousands of other members and global visitors to our site. This is a powerful tool which is used by 
+recycling companies to increase their presence in the local, national, and international markets. 
+Scrap News, Prices and Articles are updated daily on our site. 
+Today, waste has taken the initiative to reform the Industrial Scrap Industry by becoming a 360°  
+Digital Marketing Solution Provider and an E-Marketplace. Not only it is assisting buyers and 
+sellers to connect with each other, it is also providing support with payment protection plans, and 
+Logistics. In fact, Bhangar Trade is the first company in the market which is providing E-
+Marketplace to Scrap Traders along with solutions like Buy/Sell assitance & Promotion. 
+Our efforts are to provide information to the Scrap Industry. We publish news for our members and 
+visitors. We invite Recycling companies to join Bhangar Trade today, and start getting news, daily 
+prices, and finding buyers and sellers in their preferred markets. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+Objectives 
+ 
+This project aims to create and provide a waste collection and buying or selling of that waste. These are 
+the following objectives of the project: 
+(1) To be able to buy the products like metals, paper, wood, 
+plastics, bio-waste, antiques.  
+(2)To be able to selling of products like metals, paper, wood, 
+plastics, bio-waste, antiques.  
+(3) To be able communicate with buyer and seller by using calling function or chating function . 
+(4) To be able to determine the purpose of applying and approach of predictive analytics 
+ 
+ 
+1.2 Purpose, Scope, and Applicability. 
+ 
+ 
+1.2.1 Purpose 
+Having someone to monitor the collection is an important aspect of Garbage waste 
+management. This study will aid in the efficient buying and selling of products by contact the 
+seller or we can communicate with that seller. It sheds insights on the personnel to be able to 
+identify the trend or pattern within a month or a week that refresh the products data so that we 
+can buy or view new products day by day. 
+ 
+1.2.2 Scope 
+ 
+The application aims to determine the total amount of biodegradable, non-biodegradable and 
+recyclable trash in a particular place . It focuses on the number of waste materials in the app so 
+that user or a company can buy that products and make it reusable and or fresh product it is also 
+use full. It is a good platform for business thous who are interested in managing the waste. 
+ 
+ 
+1.2.3 Applicability 
+ 
+ 
+• 
+This system will be useful for many local area Home, Institutes, colleges and even 
+schools. 
+ 
+• 
+This system will be helpful for for our environment cleaning ness in our locality or 
+area who will implement the system. 
+ 
+• 
+This application also works as a platform or new entrepreneur those who wants to 
+start business in this line. 
+11 
+ 
+1.3 Achievements 
+ 
+ 
+This idea is perfect for saving time and changes the regular way to buying and selling of products 
+which is waste or fresh products which can be recycled easily under the guidelines of bhangar trade 
+while also providing a better solution for garbage disposal for many cities. Our Chating and Calling 
+based Garbage Management System for Smart City app integrates the best techniques to check and 
+analyze data and we can buy products in reasonable price. 
+• 
+The user does not have to go the shop. 
+• 
+The user analyzes the product and buy on the basis of requirement. 
+• 
+This system helps the user to maintain there chating records. 
+• 
+The company who recycles that waste they can easily communicate with seller. 
+• 
+Easily add new products, update products and also easy to register in the system. 
+ 
+ 
+1.4 Organization of Report 
+ 
+ 
+This project contains seven chapters which are introduction, Survey of Technology, 
+Requirement and Analysis, System Design, Implementation and Testing, Result and 
+Discussion and Conclusion. 
+ 
+Chapter 1:- 
+ 
+The introduction of the whole project, problem background that describe about some of the 
+general problems faced by the people those who are don’t know how to buy waste and sell 
+that waste or any other products. 
+ 
+Chapter 2:- 
+ 
+The survey of android technology. 
+ 
+Chapter 3:- 
+ 
+This is will review about the research done or the existing system that are related tothe 
+project. It also includes description about online mobile application. After the review isdone, 
+a summary between the existing applications with the application will be stated as well. 
+Besides that, the software requirement or tools that will be used in developing the system. 
+introduces the fundamental processes of identifying the requirements for system analysis. 
+12 
+ 
+Chapter 4:- 
+ 
+is to introduce system design such as database design, interface design and specifying method 
+to develop Student information chatbot mobile app. 
+Chapter 5:- 
+will discuss about the flow of the system and how each of the module are implemented. 
+Screenshots of Student information chatbot app are carried out for every module attached with 
+details to show the flow of the apps. System testing where testing conducted after the 
+implementation phase. Basically, it is starts during analysis which remains as a continuous activity 
+throughout the development process. 
+Chapter 6:- 
+ 
+is result of all modules and discussion about the project 
+ 
+Chapter 7:- 
+ 
+is conclusion and future works where the application overall performance will be summarized and 
+also the limitation of the application will be discussed. The system limitation of the however will 
+lead to the future works that need to be carried out in this application 
+13 
+ 
+CHAPTER 2 
+ 
+ 
+ 
+SURVEY OF TECHNOLOGIES 
+ 
+ 
+Android is a modern mobile platform that is designed to be great open source. Android 
+applications can use next level of hardware and software, as well as local and server data, 
+exposed through the platform to bring new innovation and value to its users. 
+ 
+• 
+Android platform must have security mechanism to maintain security of 
+users data, information, database and network. 
+ 
+• 
+Open source platform needs strong and careful to the security architecture to 
+provide best security. 
+ 
+• 
+Android is designed with multi-layered security layers that provides flexibility 
+needed for an open platform, whereas we can provide protection for all users of the 
+platform designed to software storage, android includes an operating system, 
+middleware and core application as a complete system. 
+ 
+• 
+Android is being use as operating system in phone in hundreds of millions of phones 
+in more than 190 countries around the world. 
+ 
+• 
+Android architecture is designed with keep easy of development skills for developers. 
+ 
+• 
+Security controls have designed to minimal the load on developers. 
+ 
+• 
+Developers have to simply work on adoptable security controls. 
+ 
+• 
+Developers are not intimate with securities that apply by defaults on application. 
+ 
+• 
+Android is also designed with focused on user’s view. 
+ 
+• 
+Users can view how an application works and manage those applications. 
+14 
+ 
+Android Architecture 
+ 
+ 
+Linux kernel 
+ 
+ 
+At the bottom of the layers is Linux - Linux 3.6 with approximately 115 patches. This 
+provides a level of abstraction between the device hardware and it contains all the essential 
+hardware drivers like camera, keypad, display etc. Also, the kernel handles all the things that 
+Linux is really good at such as networking and a vast array of device drivers, which take the 
+pain out of interfacing to peripheral hardware. 
+ 
+Libraries 
+ 
+On top of Linux kernel there is a set of libraries including open-source Web browser engine 
+WebKit, well known library libc, SQLite database which is a useful repository for storage 
+and sharing of application data, libraries to play and record audio and video, SSL libraries 
+responsible for Internet security etc. 
+ 
+Android Libraries 
+ 
+This category encompasses those Java-based libraries that are specific to Android 
+development. Examples of libraries in this category include the application framework 
+libraries in addition to those that facilitate user interface building, graphics drawing and 
+15 
+ 
+database access. A summary of some key core Android libraries available to the Android 
+developer is as follows – 
+ 
+• 
+android.app − Provides access to the application model and is the cornerstone of all 
+Android applications. 
+• 
+android.content − Facilitates content access, publishing and messaging between 
+applications and application components. 
+• 
+android.database − Used to access data published by content providers and 
+includes SQLite database management classes. 
+• 
+android.opengl − A Java interface to the OpenGL ES 3D graphics rendering API. 
+• 
+android.os − Provides applications with access to standard operating system 
+services 
+including 
+messages, 
+system 
+services 
+and 
+inter-process 
+communication. 
+• 
+android.text − Used to render and manipulate text on a device display. 
+• 
+android.view − The fundamental building blocks of application user interfaces. 
+• 
+android.widget − A rich collection of pre-built user interface components such as 
+buttons, labels, list views, layout managers, radio buttons etc. 
+• 
+android.webkit − A set of classes intended to allow web-browsing capabilities to 
+be built into applications. 
+ 
+Having covered the Java-based core libraries in the Android runtime, it is now time to 
+turn our attention to the C/C++ based libraries contained in this layer of the Android 
+software stack. 
+16 
+ 
+Android Runtime 
+ 
+This is the third section of the architecture and available on the second layer from the 
+bottom. This section provides a key component called Dalvik Virtual Machine which is a 
+kind of Java Virtual Machine specially designed and optimized for Android. 
+The Dalvik VM makes use of Linux core features like memory management and multi- 
+threading, which is intrinsic in the Java language. The Dalvik VM enables every Android 
+application to run in its own process, with its own instance of the Dalvik virtual machine. 
+The Android runtime also provides a set of core libraries which enable Android 
+application developers to write Android applications using standard Java 
+programming language. 
+ 
+Application Framework 
+ 
+The Application Framework layer provides many higher-level services to applications in the 
+form of Java classes. Application developers are allowed to make use of these services in their 
+applications. 
+ 
+The Android framework includes the following key services − 
+ 
+• 
+Activity Manager − Controls all aspects of the application lifecycle and activity stack. 
+• 
+Content Providers − Allows applications to publish and share data with other 
+applications. 
+• 
+Resource Manager − Provides access to non-code embedded resources such as 
+strings, color settings and user interface layouts. 
+• 
+Notifications Manager − Allows applications to display alerts and notifications to the 
+user. 
+• 
+View System − An extensible set of views used to create application user interfaces. 
+• 
+Applications − You will find all the Android application at the top layer. You will write 
+your application to be installed on this layer only. Examples of such applications are 
+Contacts Books, Browser, Games etc. 
+MYSQL DATABASE:- 
+MySQL is an open-source relational database management system. Its name is a combination 
+My, the name of co-founders Michael Wideness‘s daughter, and "SQL", the abbreviation for 
+Structured Query Language. The MySQL development project has made its source code 
+available under the terms of the GNU General Public License, as well as under a variety of 
+proprietary agreements. MySQL was owned and sponsored by a single for-profit firm, the 
+Swedish company MySQL AB, now owned by Oracle Corporation. 
+ 
+• 
+MySQL is a central component of the LAMP open-source web application 
+software stack (and other "AMP" stacks). LAMP is an acronym for "Linux, 
+Apache, MySQL, Perl/PHP/Python". 
+17 
+ 
+ 
+• 
+Applications that use the MySQL database 
+ 
+• 
+include: TYPO3, MODx, Joomla, WordPress, SimpleMachinesForum, phpBB, 
+MyBB and Drupal. 
+ 
+• 
+MySQL is also used in many high-profile, large-scale websites, including Google, 
+Facebook, Twitter, Flicker, and YouTube. 
+ 
+Firebase : 
+Firebase provides a real-time database and backend as a service. The service provides 
+application developers an API that allows application data to be synchronized  across 
+clients and stored on Firebase's cloud. 
+Firebase Real-time database is a cloud hosted database that supports multiple platforms 
+Android, iOS and Web. All the data is stored in JSON format and any changes in data, 
+reflects immediately by performing a sync across all the platforms & devices. This allows 
+us to build more flexible real-time apps easily with minimal effort. 
+With the help of android and firebase we can develop: 
+ 
+➢ High-quality apps 
+ 
+➢ Grow the user base 
+ 
+➢ Provides the fast, secure information. 
+ 
+➢ Firebase provides instant UI libraries and SDKS for authenticating client 
+across application using email id, password, or username. Here you can 
+integrate various sign- in techniques to allow user login into your app. 
+ 
+SQLite Database 
+SQLite is an open-source relational database i.e. used to perform database operations on 
+android devices such as storing, manipulating or retrieving persistent data from the 
+database. 
+It is embedded in android by default. So, there is no need to perform any database 
+setup or administration task. 
+ 
+SQLiteOpenHelper class provides the functionality to use the SQLite database. 
+The android.database.sqlite.SQLite Open Helper class is used for database creation and 
+version management. For performing any database operation, you have to provide the 
+implementation of onCreate() and onUpgrade() methods of SQLite Open Helper class. 
+18 
+ 
+CHAPTER 3 
+ 
+ 
+REQUIREMENTS AND ANALYSIS 
+ 
+ 
+System analysis is a process of gathering and interpreting facts, diagnosing problems and 
+the information about the garbage collection system . It is a problem solving activity that 
+requires intensive communication between the system users and system developers. System 
+analysis or study is an important phase of any system development process. The system is 
+studied to the minutest detail and analyzed. The system analyst plays the role of the 
+interrogator and dwells deep into the working of the present system. 
+ 
+BhangarTrade has been developed by Scrap professionals, with years of Research and 
+experience. 
+BhangarTrade's mission is to provide accurate and updated Scrap details, prices, and 
+information to the community, along with connecting Buyers and Sellers of local, national 
+and Global markets. 
+Scrap recycling is a multi-billion dollar Industry, which depends on global supply and 
+demand. Providing information for international Buyers and Sellers facilitates the 
+communication, and creates new, more profitable business relationships for our members. 
+Our members provide business information, along with product listings, which are shared 
+with thousands of other members and global visitors to our site. This is a powerful tool 
+which is used by recycling companies to increase their presence in the local, national, and 
+international markets. Scrap News, Prices and Articles are updated daily on our site. 
+Today, Bhangar has taken the initiative to reform the Industrial Scrap Industry by becoming 
+a 360° Digital Marketing Solution Provider and an E-Marketplace. Not only it is assisting 
+buyers and sellers to connect with each other, it is also providing support with payment 
+protection plans, and Logistics. In fact, BhangarTrade is the first company in the market 
+which is providing E-Marketplace to Scrap Traders along with solutions like Buy/Sell 
+assitance & Promotion. 
+Our efforts are to provide information to the Scrap Industry. We publish news for our 
+members and visitors. We invite Recycling companies to join BhangarTrade today, and 
+start getting news, daily prices, and finding buyers and sellers in their preferred markets. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+19 
+ 
+EXISTING SYSTEM: 
+ 
+ 
+ 
+ 
+An works  heading for their workstations every morning. For all those people, there are just not 
+enough garbage waste so that they can buy that product and recycle that products this hole 
+producer is done by visiting into that shop or into a company.  
+ 
+If we want to buy any home appliances or garbage waste we must communicate with that seller by 
+visiting to he’s shop and same for seller if they want to sell there product they have to wait into 
+there shop until any customer visites into there shop. 
+ 
+There is no existing system for this things to make easy. This is first app for selling and buying of 
+new products like metals, antiques, surplus, and waste ,like bio-waste, mediwaste, papers which 
+can be recycle and make it new product.  
+ 
+Company those who recycle the products like papers, wood, papers, etc. For recycling of they 
+product they must collect that product for that there is no easy way of communication between 
+company and seller by this app they can easily communicate and buy sellers product in reasonable 
+price.  
+20 
+ 
+PROPOSED SYSTEM 
+ 
+ 
+• The proposed system overview for this system. Solid waste management can be broadly 
+categorized as segregation, collection, and transportation. 
+ 
+• The server will collect the data and store them only a database. This data will be analyzed 
+and displayed on two different dashboards that can be accessed by the workforce and 
+clients. 
+ 
+• Using data analytics, reports will be generated which can be monitored by the admins 
+through the admin dashboard. 
+ 
+• Based on the data collected, garbage trucks can be given routes generated through various 
+algorithms and google maps API to efficiently route through all necessary garbage bins and 
+finally reach the dumping site 
+ 
+• It saves time and money by using smart waste collection bins and systems equipped with fill 
+level sensors. As smart transport vehicles go only to the filled containers or bins. It reduces 
+infrastructure, operating and maintenance costs by upto 30%. 
+ 
+• It decreases traffic flow and consecutively noise due to less air pollution as result of less 
+waste collection vehicles on the roads. This has become possible due to two way 
+communication between smart dustbins and service operators. 
+ 
+• It keeps our surroundings clean and green and free from bad odour of wastes, emphasizes on 
+healthy environment and keep cities more beautiful. 
+ 
+• It further reduces manpower requirements to handle the garbage collection process. 
+ 
+• Applying smart waste management process to the city optimizes management, resources and 
+costs which makes it a "smart city". 
+ 
+• It helps administration to generate extra revenue by advertisements on smart devices 
+ 
+3.1 Problem Definition 
+ 
+ 
+Waste Collection is still in a relative state of infancy here in the India, with little 
+research having conducted in many of its areas to date. In particular, the tasks, 
+identifying necessary information such as the amount of waste collected and the 
+successful tagging with the location points are yet to give attention. 
+(1) How can deliver that products on buyers place? 
+(2) How can the project application be efficient taking all records of chats between customers and 
+sellers? 
